@@ -1,0 +1,25 @@
+.card {
+    margin-top: 20px;
+    width: 500px;
+    border: 1px solid white;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    cursor: pointer;
+}
+.card:hover {
+    box-shadow: 1px 1px 10px white;
+}
+.img {
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    width: 100%;
+    height: 200px;
+}
+.info {
+    padding: 10px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
